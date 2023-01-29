@@ -1,0 +1,75 @@
+@font-face {
+    font-family: unbound;
+    src: url("fonts/Unbounded-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: notosans;
+    src: url("fonts/NotoSansSymbols2-Regular.ttf");
+}
+
+html {
+    background-color:darkslateblue;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: aliceblue;
+    margin: 0;
+    color: coral;
+    font-size: 1.5em;
+}
+
+main {
+    align-items: center;
+    color:aliceblue;
+}
+
+#title {
+    text-shadow: #FC0 1px 0 10px;
+}
+
+#title, #author {
+    font-family: unbound;
+}
+
+#lyrics {
+    line-height: 1.2em;
+    letter-spacing: 1.2px;
+    font-family: "notosans";
+    display: grid;
+    font-weight: bold;
+}
+
+.sentence:hover {
+    color:aliceblue;
+    text-shadow: coral 1px 0 10px;
+ 
+}
+
+.quiet {
+    color:#FC0;
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 1px auto 1px auto;
+}
+
+.yelling {
+    font-size: 1.2em;
+    color:coral;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+footer {
+    color:aliceblue;
+
+}
+
+footer a {
+    color: coral;
+}
