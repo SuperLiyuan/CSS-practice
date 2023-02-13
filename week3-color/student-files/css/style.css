@@ -1,0 +1,37 @@
+/* Lesson starts here */
+
+header {
+    display: block;
+    height: 150px;
+}
+
+header nav {
+    float: right;
+}
+
+header img {
+    float: left;
+}
+
+header nav menu {
+    display: flex;
+}
+
+.mono-header {
+    text-align: center;
+}
+
+.mono-body div {
+    text-align: center;
+
+}
+
+.mono-body-row, .tri-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tri-header {
+    text-align: center;
+}

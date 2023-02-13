@@ -48,7 +48,7 @@ main {
 
 .sentence:hover {
     color:aliceblue;
-    text-shadow: coral 1px 0 10px;
+    text-shadow: coral 2px 0 10px;
  
 }
 
@@ -60,10 +60,12 @@ main {
 }
 
 .yelling {
-    font-size: 1.2em;
+    font-size: 1.3em;
     color:coral;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: #FC0 2px 0 10px;
+    -webkit-text-stroke: 1px coral;
 }
+
 
 footer {
     color:aliceblue;
